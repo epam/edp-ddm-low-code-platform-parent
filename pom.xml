@@ -11,7 +11,7 @@
 
   <groupId>com.epam.digital.data.platform</groupId>
   <artifactId>low-code-platform-parent</artifactId>
-  <version>1.3.0-SNAPSHOT</version>
+  <version>1.4.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Low code platform parent pom</name>
