@@ -43,3 +43,8 @@ These plugins are preconfigured in `<pluginManagement/>` section with next setti
 * `maven-failsafe-plugin`:
     * adds integration test source directory `${project.basedir}/src/it/java`
     * adds integration test resource directory `${project.basedir}/src/it/resources`
+
+### License
+
+The low-code-platform-parent is released under version 2.0 of
+the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
