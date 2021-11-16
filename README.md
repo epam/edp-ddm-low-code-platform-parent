@@ -1,21 +1,27 @@
 # Low Code Platform Parent
-Parent project for all low-code-platfom projects.
 
-## Usage
+### Overview
+
+* Parent project for all low-code-platfom projects.
+
+### Usage
+
 Specify a parent in your service:
+
 ```xml
 <project>
   ...
   <parent>
     <groupId>ua.gov.mdtu.ddm.lowcode</groupId>
     <artifactId>low-code-platform-parent</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>...</version>
   </parent>
   ...
 </project>
 ```
 
-## Dependencies
+### Dependencies
+
 *We should stick with Spring Boot and Spring Cloud release trains.*
 
 There are some useful command and tips:
@@ -27,7 +33,7 @@ There are some useful command and tips:
     * `mvn dependency:tree -Dverbose` (provides an information about which dependencies are used for project showing version)
     * `mvn dependency:list` (provides the same information that previous command but without hierarchy and reason why specific version is chosen.)
 
-## Plugins configuration
+### Plugins configuration
 
 * `org.apache.maven.plugins:maven-surefire-plugin` - is used for unit tests;
 * `org.apache.maven.plugins:maven-failsafe-plugin` - is used for component/integration tests.
