@@ -12,7 +12,7 @@ Specify a parent in your service:
 <project>
   ...
   <parent>
-    <groupId>ua.gov.mdtu.ddm.lowcode</groupId>
+    <groupId>com.epam.digital.data.platform</groupId>
     <artifactId>low-code-platform-parent</artifactId>
     <version>...</version>
   </parent>
