@@ -30,6 +30,7 @@
     <springdoc-openapi-ui.version>1.6.1</springdoc-openapi-ui.version>
     <mapstruct.version>1.4.2.Final</mapstruct.version>
     <wiremock.version>2.27.2</wiremock.version>
+    <postgresql.version>42.3.3</postgresql.version>
 
     <!-- plugins -->
     <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
@@ -73,6 +74,13 @@
         <groupId>org.springdoc</groupId>
         <artifactId>springdoc-openapi-ui</artifactId>
         <version>${springdoc-openapi-ui.version}</version>
+      </dependency>
+
+      <!--PostgreSql-->
+      <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>${postgresql.version}</version>
       </dependency>
 
       <!--Tests-->
